@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.carding{
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     margin-top: 10px;
+     margin-bottom: 10px;
+     /* max-width: 400px; */
+}
+.cards img {
+  width: 300px !important;
+  height: 200px !important;
+}
+.cards h3 {
+   font-size: 21px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.Price{
+    font-size: 18px;
+    color: gray !important;
+}

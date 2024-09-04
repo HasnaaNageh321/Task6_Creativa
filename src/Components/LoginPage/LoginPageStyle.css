@@ -1,0 +1,37 @@
+.LoginPageStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer;
+  width: 250px;
+}
+span {
+  display: inline-block;
+  border-left: 200px solid black;
+  border-right: 200px solid black;
+  padding: 0 10px;
+  line-height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
